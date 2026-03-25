@@ -1,0 +1,5 @@
+{
+  "bomFormat": "CycloneDX",
+  "$schema": "https://cyclonedx.org/schema/bom-1.7.schema.json",
+  "specVersion": "1.7"
+}
