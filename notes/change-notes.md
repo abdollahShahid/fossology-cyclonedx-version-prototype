@@ -1,4 +1,4 @@
-# Change Notes
+﻿# Change Notes
 
 This prototype refactors CycloneDX BOM header generation in `src/cyclonedx/agent/reportgenerator.php`.
 
@@ -19,10 +19,3 @@ The BOM header was created inline inside `generateReport()` with hardcoded value
 
 ## After
 The BOM header is generated through backend helper methods, making the exporter structure cleaner and future version upgrades easier to manage from one place.
-
-## Visible output difference in this prototype
-- Header moved from CycloneDX `1.4` to `1.7`
-- Schema URL moved to `https`
-
-## Why this matters
-This is a small foundational backend change in the exact area where broader CycloneDX version upgrade work would happen.
