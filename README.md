@@ -1,6 +1,6 @@
 # FOSSology CycloneDX Version Prototype
 
-This repository contains a small pre-GSoC prototype based on the CycloneDX export pipeline in FOSSology.
+This repository contains a pre-GSoC prototype based on the CycloneDX export pipeline in FOSSology.
 
 ## What this prototype shows
 This prototype demonstrates a small but real backend refactor in the CycloneDX exporter. The change restructures how the BOM header is generated inside `src/cyclonedx/agent/reportgenerator.php` and shows a clear before/after change in the exported CycloneDX header.
